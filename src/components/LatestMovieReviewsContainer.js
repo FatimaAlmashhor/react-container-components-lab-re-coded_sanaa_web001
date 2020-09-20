@@ -21,7 +21,7 @@ export class LatestMovieReviewsContainer extends Component {
       .then(res => res.json())
       .then(response => this.setState({ reviews: response.results }));
   }
-  render() { 
+  render() {
     return (
       <div className="latest-movie-reviews">
         <h2>The Latest Reviews:</h2>
